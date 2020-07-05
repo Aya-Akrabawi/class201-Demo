@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cats</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        img {
+            height: 300px;
+            width: 500px;
+        }
+
+        nav {
+            text-align: left;
+            font-size: smaller;
+        }
+
+        a {
+            margin-left: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="">home</a>
+            <a href="">about</a>
+            <a href="">contact us</a>
+        </nav>
+        <h1 style="background-color: rgb(189, 63, 189); text-align: center;">Class 1 Lab: a page about Cats</h1>
+    </header>
+    <main id="main-section">
+        <img src="https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2018/08/kitten-440379.jpg?h=c8d00152&itok=1fdekAh2"
+            alt="cat">
+        <p>kinds of cats:</p>
+        <ul class="color-yellow">
+            <li>Taby </li>
+            <li>Calico</li>
+            <li>Russian Blue</li>
+        </ul>
+        <p style="color: rgb(197, 74, 197); font-weight: bold;">- What is your name?</p>
+        <p style="color: pink;font-weight: bold">- What is your cat's name?</p>
+        <p style="color: purple;font-weight: bold">- what do you feed your cat?</p>
+        <p style="color: rosybrown; font-weight: bold">- what is the color of your cat?</p>
+    </main>
+    <footer>
+        <span>This website is made for cats</span>
+    </footer>
+    <script> var userName = prompt('What is your name');
+        console.log("The user's name is " + userName);
+        var CatName = prompt('What is your cat\'s name?');
+        console.log("The cat's name is " + CatName);
+        var catFood = prompt('what do you feed your cat?')
+        console.log("The cat's food is " + catFood);
+        alert('Ooh ' + userName + '! ' + catFood + ' is a good food for ' + CatName);
+        var CatColor = prompt('what is the color of your cat?')
+        console.log("The cat color is " + CatColor);
+        alert(CatColor + ' is a cute color! I hope you\'ll enjoy in our website')</script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+* {
+    font-family: sans-serif;
+}
+img {
+height: 300px;
+width: 500px;
+}
+nav {
+    text-align: left;
+    font-size: smaller;
+}
+a {
+    margin-left: 250px;
+}
